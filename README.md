@@ -22,7 +22,9 @@ This project showcases the Denis Summary Report built in Power BI, using data pr
 
 ## Architecture
 
-![Denis Summary Dashboard](architecture/architecture.md)
+![Azure Pipeline Architecture](architecture/architecture_diagram.png)
+
+👉 [View Detailed Architecture](architecture/architecture.md)
 
 
 
