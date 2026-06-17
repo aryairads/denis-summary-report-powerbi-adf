@@ -44,4 +44,7 @@ All time‑based measures use the DateMaster table.
 
 Denis_TB is the main fact table for all calculations.
 
+Total Cost = SUM(Denis_TB[Cost])
+
+
 Measures are optimized for KPI cards, trend charts, and comparison visuals.
