@@ -57,7 +57,8 @@ It includes fact and dimension tables with optimized relationships and DAX measu
 
 ### 🔹 DAX Measures
 All DAX measures used in the report are documented in:
-👉 `data-model/data_model.md`
+##[View DAX & Data Model Details](./data-model/data_model.md)
+
 
 
 ## Deployment and Publishing
