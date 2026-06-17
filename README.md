@@ -19,11 +19,12 @@ This project showcases the Denis Summary Report built in Power BI, using data pr
 
 ---
 
+
 ## Architecture
 
-The full Azure architecture used in this project is documented here:
+![Azure Pipeline Architecture](architecture/architecture_diagram.png)
 
-![View Detailed Architecture](architecture/architecture.md)
+
 
 
 ## Azure Data Factory Pipeline (Bronze → Silver → Gold)
