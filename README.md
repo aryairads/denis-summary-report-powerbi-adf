@@ -29,6 +29,15 @@ The Azure Data Factory pipeline orchestrates data ingestion, transformation, and
 ### Pipeline Design
 ![ADF Pipeline Design](ADF-Pipeline-Design/adf_pipeline_design.png)
 
+
+## Deployment and Publishing
+
+- Published the Power BI report to **Power BI Service** workspace.
+- Configured **scheduled refresh** (8 times/day for Pro, 48 for Premium).
+- Connected dataset to **Azure SQL Gold Layer** via On-premises Data Gateway.
+- Shared dashboard with RLS-enabled roles for secure access.
+
+
 ---
 
 ## Repository Structure
