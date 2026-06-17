@@ -1,3 +1,4 @@
+```markdown
 # DAX Measures – Denis Summary Report
 
 ## Overview
@@ -41,6 +42,6 @@ DAX
 Revenue All = CALCULATE([Total REv], ALL(Denis_TB))
 Notes
 All time‑based measures use the DateMaster table.
-
+```
 
 Measures are optimized for KPI cards, trend charts, and comparison visuals.
