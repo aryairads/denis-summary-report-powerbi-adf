@@ -40,6 +40,25 @@ The Azure Data Factory pipeline orchestrates data ingestion, transformation, and
 ### Pipeline Design
 ![ADF Pipeline Design](ADF-Pipeline-Design/adf_pipeline_design.png)
 
+## Data Model
+
+The data model follows a clean star-schema structure designed for analytical reporting in Power BI.  
+It includes fact and dimension tables with optimized relationships and DAX measures.
+
+### 🔹 Model Overview
+- **Fact Table:** Sales (transaction-level data)
+- **Dimensions:** Product, Category, Subcategory, SalesRep, Geography, Date
+- **Relationships:** One-to-many relationships between dimensions and the Sales fact table
+- **Keys:** Surrogate keys used for consistent joins
+- **Measures:** Revenue, Cost, Profit, Gross Profit %, Monthly Trends, YoY calculations
+
+### 🔹 Data Model Diagram
+![Data Model](data-model/data_model.png)
+
+### 🔹 DAX Measures
+All DAX measures used in the report are documented in:
+👉 `data-model/data_model.md`
+
 
 ## Deployment and Publishing
 
