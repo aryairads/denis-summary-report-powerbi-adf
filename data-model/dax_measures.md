@@ -9,43 +9,37 @@ These measures support KPI cards, trend visuals, and time‑based analysis.
 ## Total REv
 ```DAX
 Total REv = SUM(Denis_TB[Revenue])
-
-##Total Cost
+Total Cost
 DAX
 Total Cost = SUM(Denis_TB[Cost])
-
-##Profit
+Profit
 DAX
 Profit = [Total REv] - [Total Cost]
-
-##PreviousMonth Rec
+PreviousMonth Rec
 DAX
 PreviousMonth Rec =
     CALCULATE(
         [Total REv],
         DATEADD(DateMaster[Date], -1, MONTH)
     )
-
-##MoM
+MoM
 DAX
 MoM =
     DIVIDE(
         [Total REv] - [PreviousMonth Rec],
         [PreviousMonth Rec]
     )
-
-##%Contribution
+%Contribution
 DAX
 %Contribution =
     DIVIDE(
         [Total REv],
         CALCULATE([Total REv], ALL(Denis_TB))
     )
-##Revenue All
+Revenue All
 DAX
 Revenue All = CALCULATE([Total REv], ALL(Denis_TB))
-
-##Notes
+Notes
 All time‑based measures use the DateMaster table.
 
 Denis_TB is the main fact table for all calculations.
