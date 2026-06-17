@@ -19,6 +19,13 @@ This project showcases the Denis Summary Report built in Power BI, using data pr
 
 ---
 
+## Architecture
+
+The full Azure architecture used in this project is documented here:
+
+👉 [View Detailed Architecture](architecture/architecture.md)
+
+
 ## Azure Data Factory Pipeline (Bronze → Silver → Gold)
 The Azure Data Factory pipeline orchestrates data ingestion, transformation, and loading across the Medallion layers:
 
