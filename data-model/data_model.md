@@ -61,7 +61,8 @@ Full DAX formulas are documented in `dax_measures.md`.
 ## Data Model Diagram
 Below is the visual representation of the model showing tables, relationships, and measures:
 
-![Data Model](data-model/data_model.png)
+![Data Model](data_model.png)
+
 
 ---
 
